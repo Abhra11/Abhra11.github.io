@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Routes/Home";
 import Aboutme from "./Routes/Aboutme";
 import Project from "./Routes/Project";
 import Contact from "./Routes/Contact";
+import Skills from "./Routes/Skills";
 
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         <Route path="/about" element={<Aboutme />} />
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

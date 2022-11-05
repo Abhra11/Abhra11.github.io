@@ -1,9 +1,10 @@
 import React from "react";
+import Hero2 from "../Components/Hero2";
 
 const Aboutme = () => {
   return (
     <div>
-      <h1>About Me</h1>
+      <Hero2 heading="About ME" text="It's Yet to Come" />
     </div>
   );
 };
