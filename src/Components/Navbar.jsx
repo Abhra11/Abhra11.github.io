@@ -1,63 +1,78 @@
 import "./Navbar.css";
 import React from "react";
-import { Link } from "react-router-dom";
-import {FaBars, FaTimes} from "react-icons/fa"
+// import { Link } from "react-router-dom";
+import { Link, animateScroll } from "react-scroll";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [ham,setHam]=useState(false);
-  const handleHam=()=>setHam(!ham);
+  const [ham, setHam] = useState(false);
+  const handleHam = () => setHam(!ham);
 
-  const [color,setColor]=useState(false);
-  const changeColor=()=>{
-    if(window.scrollY>=100){
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
       setColor(true);
-    }else{
+    } else {
       setColor(false);
     }
-  }
+  };
+  // const handleScreenTop = () => {
 
-  window.addEventListener('scroll',changeColor)
+  //   // console.log("hi");
+  // };
+
+  window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg": 'header '}>
+    <div className={color ? "header header-bg" : "header "}>
       <Link to="/">
         <h1>Portfolio</h1>
       </Link>
-      <ul className={ham? "nav active" : 'nav'}>
+      <ul className={ham ? "nav active" : "nav"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={() => animateScroll.scrollToTop()}>
+            Home
+          </Link>
         </li>
 
         <li>
-          <Link to="/about">About Me</Link>
+          <Link to="about" spy={true} smooth={true}>
+            About Me
+          </Link>
         </li>
 
         <li>
-          <Link to="/project">Project</Link>
+          <Link to="skills" spy={true} smooth={true}>
+            Skills
+          </Link>
         </li>
 
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="project" spy={true} smooth={true}>
+            Projects
+          </Link>
         </li>
+
         <li>
-          <Link to="/skills">Skills</Link>
+          <Link to="contact" spy={true} smooth={true}>
+            Contact
+          </Link>
         </li>
+
         <li>
-          <a href="https://drive.google.com/file/d/1edyUIAW9WbLsvrXPpkfvzZHYMsRZSITI/view?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/uc?export=download&id=1edyUIAW9WbLsvrXPpkfvzZHYMsRZSITI">
+            Resume
+          </a>
         </li>
       </ul>
 
       <div className="ham" onClick={handleHam}>
-        {ham?(
-           <FaTimes size={20} style={{color:"#fff"}}/>
-        ):(
-          
-          <FaBars size={20} style={{color:"#fff"}}/>
+        {ham ? (
+          <FaTimes size={20} style={{ color: "#fff" }} />
+        ) : (
+          <FaBars size={20} style={{ color: "#fff" }} />
         )}
-        
-       
-        
       </div>
     </div>
   );

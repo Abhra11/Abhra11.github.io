@@ -3,7 +3,7 @@ import Hero2 from "../Components/Hero2";
 
 const Aboutme = () => {
   return (
-    <div>
+    <div id="about">
       <Hero2 heading="About ME" text="It's Yet to Come" />
     </div>
   );
