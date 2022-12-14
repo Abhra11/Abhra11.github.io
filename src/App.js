@@ -8,6 +8,7 @@ import Skills from "./Routes/Skills";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import GitState from "./Components/GitState";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Aboutme />
       <Skills />
       <Project />
+      <GitState />
 
       <Contact />
 

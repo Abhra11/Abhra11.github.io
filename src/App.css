@@ -1,8 +1,5 @@
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
