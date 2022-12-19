@@ -4,6 +4,7 @@ import React from "react";
 import { Link, animateScroll } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+import Resume from "../assets/Abhra-Mondal-Resume.pdf";
 
 const Navbar = () => {
   const [ham, setHam] = useState(false);
@@ -61,7 +62,7 @@ const Navbar = () => {
         </li>
 
         <li>
-          <a href="https://drive.google.com/uc?export=download&id=1edyUIAW9WbLsvrXPpkfvzZHYMsRZSITI">
+          <a href={Resume} download>
             Resume
           </a>
         </li>

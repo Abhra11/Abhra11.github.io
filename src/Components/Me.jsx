@@ -2,6 +2,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { ImDownload } from "react-icons/im";
+import Resume from "../assets/Abhra-Mondal-Resume.pdf";
 // import myImage from "../Resources/Images/profilePic.jpeg";
 // import backgroundImage from "../assets/bg.jpg";
 
@@ -77,18 +78,20 @@ const Me = () => {
               bootcamp structure learning in JavaScript, Node.Js, React.Js,
               MongoDB, Express, HTML5, and CSS3.
             </p>
-            <h1>
-              <button
-                style={{
-                  backgroundColor: "#098b55",
-                  padding: "5px",
-                  borderRadius: "5px",
-                }}
-              >
-                <ImDownload />
-                Download
-              </button>
-            </h1>
+            <a href={Resume} download>
+              <h1>
+                <button
+                  style={{
+                    backgroundColor: "#098b55",
+                    padding: "5px",
+                    borderRadius: "5px",
+                  }}
+                >
+                  <ImDownload />
+                  Download
+                </button>
+              </h1>
+            </a>
             {/* <div>
                             <img src={signature} alt='Mohit_Signature' width='200px' />
                         </div> */}
@@ -113,6 +116,7 @@ const AboutMeWrapper = styled.div`
     padding: 20px;
     border-radius: 10px;
     gap: 10px;
+    border: 1px solid #098b55;
 
     // border: 2px solid black
   }
