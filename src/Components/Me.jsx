@@ -1,6 +1,7 @@
 import DownloadIcon from "@mui/icons-material/Download";
 import React, { useEffect } from "react";
 import styled from "styled-components";
+import { ImDownload } from "react-icons/im";
 // import myImage from "../Resources/Images/profilePic.jpeg";
 // import backgroundImage from "../assets/bg.jpg";
 
@@ -76,6 +77,18 @@ const Me = () => {
               bootcamp structure learning in JavaScript, Node.Js, React.Js,
               MongoDB, Express, HTML5, and CSS3.
             </p>
+            <h1>
+              <button
+                style={{
+                  backgroundColor: "#098b55",
+                  padding: "5px",
+                  borderRadius: "5px",
+                }}
+              >
+                <ImDownload />
+                Download
+              </button>
+            </h1>
             {/* <div>
                             <img src={signature} alt='Mohit_Signature' width='200px' />
                         </div> */}
