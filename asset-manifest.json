@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e633fa8e.css",
-    "main.js": "/static/js/main.32fc08fa.js",
+    "main.js": "/static/js/main.faca0a3b.js",
     "static/js/787.7bc7acf7.chunk.js": "/static/js/787.7bc7acf7.chunk.js",
     "static/media/bg.jpg": "/static/media/bg.bcb3b3859a5cc71ff4e0.jpg",
     "static/media/2022-12-19 12.45.27 cultwear.netlify.app 41fc0e2b0f77.png": "/static/media/2022-12-19 12.45.27 cultwear.netlify.app 41fc0e2b0f77.e9684195d68acae5f199.png",
@@ -9,13 +9,14 @@
     "static/media/BEWAKOOF.png": "/static/media/BEWAKOOF.873ee9f3253d6660f28f.png",
     "static/media/Shine.png": "/static/media/Shine.64db183346ea625eaa8a.png",
     "static/media/1665428844472-01-03-01.jpeg": "/static/media/1665428844472-01-03-01.fe5291a5ca89beec0ec9.jpeg",
+    "static/media/Abhra-Mondal-Resume.pdf": "/static/media/Abhra-Mondal-Resume.4066ee54128b0a10499b.pdf",
     "index.html": "/index.html",
     "main.e633fa8e.css.map": "/static/css/main.e633fa8e.css.map",
-    "main.32fc08fa.js.map": "/static/js/main.32fc08fa.js.map",
+    "main.faca0a3b.js.map": "/static/js/main.faca0a3b.js.map",
     "787.7bc7acf7.chunk.js.map": "/static/js/787.7bc7acf7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e633fa8e.css",
-    "static/js/main.32fc08fa.js"
+    "static/js/main.faca0a3b.js"
   ]
 }
