@@ -5,7 +5,7 @@ import Work from "../Components/Work";
 const Project = () => {
   return (
     <div id="project">
-      <Hero2 heading="Projects" text="Some of My Recent Work" />
+      {/* <Hero2 heading="Projects" text="Some of My Recent Work" /> */}
       <Work />
     </div>
   );
