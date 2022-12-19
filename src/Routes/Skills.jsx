@@ -27,7 +27,7 @@ const Skills = () => {
       <div className="skills">
         <div className="card-container">
           <div className="card">
-            <h3>Hard skill</h3>
+            <h3>Tech Skills</h3>
 
             <SiHtml5 className="logo" />
             <p>
@@ -47,15 +47,15 @@ const Skills = () => {
               <span className="bar"></span>
             </p>
 
-            <TfiGithub />
+            <SiChakraui className="logo" />
             <p>
-              Git/Github
+              ChakraUI
               <span className="bar"></span>
             </p>
 
-            <SiMongodb />
+            <SiSwiper className="logo" />
             <p>
-              Mongodb
+              Swiper
               <span className="bar"></span>
             </p>
 
@@ -67,23 +67,17 @@ const Skills = () => {
           </div>
 
           <div className="card">
-            <h3>Hard skill</h3>
+            <h3>Tech Tools</h3>
 
-            <SiSemanticuireact className="logo" />
+            <TfiGithub className="logo" />
             <p>
-              ReactJS
+              Git/Github
               <span className="bar"></span>
             </p>
 
-            <SiRedux className="logo" />
+            <SiMongodb />
             <p>
-              CSS
-              <span className="bar"></span>
-            </p>
-
-            <SiChakraui className="logo" />
-            <p>
-              ChakraUI
+              Mongodb
               <span className="bar"></span>
             </p>
 
@@ -96,12 +90,6 @@ const Skills = () => {
             <SiPostman className="logo" />
             <p>
               Postman
-              <span className="bar"></span>
-            </p>
-
-            <SiSwiper className="logo" />
-            <p>
-              Swiper
               <span className="bar"></span>
             </p>
           </div>

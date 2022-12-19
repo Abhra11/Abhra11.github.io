@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>123 House</p>
+              <p>Kolkata</p>
               <p>West Bengal</p>
             </div>
           </div>
@@ -28,41 +28,38 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              8768525491
-            </h4>
-          </div>
-
-          <div className="email">
-            <h4>
-              <FaMailBulk
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />
-              abhra001597@gmail.com
+              +91-8768525491
             </h4>
           </div>
         </div>
         <div className="right">
-          <h4>Something something and Something</h4>
+          <h4>© 2022 Abhra. Designed and created by Me</h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
-            quisquam fugit, quasi pariatur eligendi ea porro error? Minus nisi,
-            facere necessitatibus magni vero accusamus velit placeat totam
-            obcaecati magnam tempore?
+            A programming language is for thinking about programs, not for
+            expressing programs you've already thought of. It should be a
+            pencil, not a pen. - Paul Graham
           </p>
           <div className="social">
-            <FaFacebook
-              size={20}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaGithub
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+            <a href="https://www.facebook.com/abhra.mondal.52/">
+              <FaFacebook
+                size={20}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+
+            <a href="https://www.linkedin.com/in/abhra-mondal/">
+              <FaLinkedin
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a href="https://github.com/Abhra11">
+              {" "}
+              <FaGithub
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>

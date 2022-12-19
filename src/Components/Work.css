@@ -20,6 +20,15 @@
 .project-card img {
   width: 100%;
 }
+.logo-link2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.logo-link2 > p {
+  border-bottom: 1px solid;
+}
 
 @media screen and (max-width: 740px) {
   .project-container {
