@@ -54,3 +54,28 @@
   justify-content: space-between;
   padding: 0.5rem 0;
 }
+.project-card {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 80px;
+  border: 10px solid teal;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.imgContainer {
+  overflow: hidden;
+}
+.imgContainer > img {
+  display: block;
+  transition: transform 0.4s;
+}
+
+.imgContainer > img:hover {
+  position: absolute;
+  width: 80%;
+  transform: scale(1.3);
+  transform-origin: 0% 0%;
+}

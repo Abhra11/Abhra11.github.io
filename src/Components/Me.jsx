@@ -16,42 +16,14 @@ const Me = () => {
     Aos.init({ duration: 2000 });
   });
 
+  const handleClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1edyUIAW9WbLsvrXPpkfvzZHYMsRZSITI/view?usp=sharing"
+    );
+  };
+
   return (
     <div id="about">
-      {/* <Container>
-        <div className="aboutBox">
-          <div className="about_leftBox">
-            <h1>Hi, I'm Anukriti Nawani.</h1>
-            <Typical
-              className="typical"
-              loop={Infinity}
-              steps={[
-                "I'm a Full Stack Web Developer",
-                ,
-                1000,
-                "I'm a receptive",
-                500,
-              ]}
-            />
-            <p>
-              An enthusiastic Full Stack Web Developer with a strong set of
-              technical as well as non-technical skills and a dedication towards
-              creating useful and interactive web applications.
-            </p>
-            <a href="https://drive.google.com/uc?export=download&id=1q8TZXuKkCwmZtX33CEDmGI-Ug3vhI8hl">
-              <button data-aos="fade-left">
-                Download CV
-                <DownloadIcon />
-              </button>
-            </a>
-          </div>
-          <div className="about_rightBox">
-            <div>
-              <img src={myImage} alt="" width="100%" height="100%" />
-            </div>
-          </div>
-        </div>
-      </Container> */}
       <AboutMeWrapper data-aos="fade-right">
         <div className="aboutSection">
           <div className="left">
@@ -78,7 +50,7 @@ const Me = () => {
               bootcamp structure learning in JavaScript, Node.Js, React.Js,
               MongoDB, Express, HTML5, and CSS3.
             </p>
-            <a href={Resume} download>
+            <a href={Resume} download onClick={handleClick}>
               <h1>
                 <button
                   style={{
@@ -105,7 +77,7 @@ const Me = () => {
 const AboutMeWrapper = styled.div`
   width: 100%;
   margin-top: -50px;
-  margin-bottom: 40px;
+
   .aboutSection {
     width: 80%;
     margin: auto;

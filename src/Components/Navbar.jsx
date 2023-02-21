@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import React from "react";
+import React, { useEffect } from "react";
 // import { Link } from "react-router-dom";
 import { Link, animateScroll } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -12,18 +12,32 @@ const Navbar = () => {
 
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 80 || ham) {
       setColor(true);
     } else {
       setColor(false);
     }
   };
+
   // const handleScreenTop = () => {
 
   //   // console.log("hi");
   // };
 
   window.addEventListener("scroll", changeColor);
+  const handleClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1edyUIAW9WbLsvrXPpkfvzZHYMsRZSITI/view?usp=sharing"
+    );
+  };
+
+  useEffect(() => {
+    if (ham || color) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  }, [ham, color]);
 
   return (
     <div className={color ? "header header-bg" : "header "}>
@@ -62,7 +76,7 @@ const Navbar = () => {
         </li>
 
         <li>
-          <a href={Resume} download>
+          <a href={Resume} download onClick={handleClick}>
             Resume
           </a>
         </li>

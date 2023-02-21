@@ -16,9 +16,12 @@ const Work = () => {
       <h1 className="project-heading">PROJECTS</h1>
       <div className="project-container">
         <div className="project-card">
-          <img src={ZARA} alt="Error 404 not found" />
-          <h2 className="project-title">ZARA CLONE</h2>
+          <div className="imgContainer">
+            <img src={ZARA} alt="Error 404 not found" />
+          </div>
+
           <div className="pro-details">
+            <h2 className="project-title">ZARA CLONE</h2>
             <p>
               Latest trends in clothing for women, men & kids at ZARA online.
               Find new arrivals, fashion catalogs, collections & lookbooks every
@@ -56,9 +59,12 @@ const Work = () => {
         </div>
 
         <div className="project-card">
-          <img src={BEWAKOOF} alt="Error 404 not found" />
-          <h2 className="project-title">BEWAKOOF CLONE</h2>
+          <div className="imgContainer">
+            <img src={BEWAKOOF} alt="Error 404 not found" />
+          </div>
+
           <div className="pro-details">
+            <h2 className="project-title">BEWAKOOF CLONE</h2>
             <p>
               An Hassle-Free and Convenient online shoping website with extremly
               good customer service and vast amount of DESI products at your
@@ -94,9 +100,12 @@ const Work = () => {
         </div>
 
         <div className="project-card">
-          <img src={BlueFly} alt="Error 404 not found" />
-          <h2 className="project-title">BlueFly CLONE</h2>
+          <div className="imgContainer">
+            <img src={BlueFly} alt="Error 404 not found" />
+          </div>
+
           <div className="pro-details">
+            <h2 className="project-title">BlueFly CLONE</h2>
             <p>
               With 3000+ brands, Bluefly is the online shopping destination for
               the style obsessed, shop designer styles from Prada, Gucci, Dior,
@@ -113,7 +122,7 @@ const Work = () => {
             <div className="pro-btns">
               <h1 className="logo-link">
                 <a
-                  href="https://github.com/hurmitg/bluefly"
+                  href="https://github.com/hurmitg/bluefly/tree/main/project"
                   className="logo-link2"
                 >
                   <TfiGithub />
@@ -134,9 +143,12 @@ const Work = () => {
         </div>
 
         <div className="project-card">
-          <img src={SHINE} alt="Error 404 not found" />
-          <h2 className="project-title">SHINE CLONE</h2>
+          <div className="imgContainer">
+            <img src={SHINE} alt="Error 404 not found" />
+          </div>
+
           <div className="pro-details">
+            <h2 className="project-title">SHINE CLONE</h2>
             <p>
               Shine.com is India's Leading Online Job and Recruitment Portal -
               Search & Apply for Latest Job Vacancies across Top Companies in
