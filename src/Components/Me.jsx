@@ -2,7 +2,8 @@ import DownloadIcon from "@mui/icons-material/Download";
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { ImDownload } from "react-icons/im";
-import Resume from "../assets/Abhra-Mondal-Resume.pdf";
+import Resume from "../assets/Abhra_Mondal_Resume.pdf";
+import Typical from "react-typical";
 // import myImage from "../Resources/Images/profilePic.jpeg";
 // import backgroundImage from "../assets/bg.jpg";
 
@@ -43,12 +44,14 @@ const Me = () => {
             <h2>
               I am a <span>MERN Stack Developer</span>
             </h2>
+
             <p>
-              My name is Abhra Mondal, I am from West Bengal. Frontend Developer
-              with the ability to learn and collaborate in rapidly changing
-              environments and compositions. Worked through 1000+ hours of
-              bootcamp structure learning in JavaScript, Node.Js, React.Js,
-              MongoDB, Express, HTML5, and CSS3.
+              My name is Abhra Mondal, I am from West Bengal. Well-educated with
+              backend MERN and frontend development requirements with the
+              ability to learn and collaborate in rapidly changing environments
+              and compositions. Worked through 1200+ hours of bootcamp structure
+              learning in JavaScript, Node.Js, React.Js, MongoDB, Express,
+              HTML5, and CSS3.
             </p>
             <a href={Resume} download onClick={handleClick}>
               <h1>

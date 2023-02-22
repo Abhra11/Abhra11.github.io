@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { Link, animateScroll } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-import Resume from "../assets/Abhra-Mondal-Resume.pdf";
+import Resume from "../assets/Abhra_Mondal_Resume.pdf";
 
 const Navbar = () => {
   const [ham, setHam] = useState(false);
@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header "}>
       <Link to="/">
-        <h1>Portfolio</h1>
+        <h1 className="name">ABHRA</h1>
       </Link>
       <ul className={ham ? "nav active" : "nav"}>
         <li>

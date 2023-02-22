@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import React from "react";
 import Img1 from "../assets/bg.jpg";
 import profile from "../assets/1665428844472-01-03-01.jpeg";
+import Typical from "react-typical";
 
 const Hero = () => {
   return (
@@ -12,10 +13,22 @@ const Hero = () => {
       </div>
 
       <div className="headLine">
-        <h1>Abhra Mondal</h1>
+        <h1>Hello There,</h1>
         <img className="profile" src={profile} alt="" />
-        <p>Hello There</p>
-        <h1>Full-Stack Developer</h1>
+        <p className="title1">I'm Abhra Mondal.</p>
+        <h1>
+          <Typical
+            className="typical"
+            loop={Infinity}
+            steps={[
+              "I'm a Full Stack Web Developer",
+              ,
+              1000,
+              "I'm result oriented",
+              500,
+            ]}
+          />
+        </h1>
         <div>
           <Link to="project" className="btn" spy={true} smooth={true}>
             Projects

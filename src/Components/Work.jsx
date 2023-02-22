@@ -32,7 +32,7 @@ const Work = () => {
               A collaborative project, built in 4 days by a team of 5
               developers.
             </h3>
-            <p>
+            <p className="techStack">
               <h3>Tech Stack:</h3>RractJS | React-Redux | HTML | JavaScript
             </p>
             <div className="pro-btns">
@@ -73,7 +73,7 @@ const Work = () => {
             <h3>
               An individual project which is only created by me in 4 days.
             </h3>
-            <p>
+            <p className="techStack">
               <h3>Tech Stack:</h3>RractJS | HTML | JavaScript
             </p>
             <div className="pro-btns">
@@ -115,7 +115,7 @@ const Work = () => {
               A collaborative project, built in 4 days by a team of 5
               developers.
             </h3>
-            <p>
+            <p className="techStack">
               <h3>Tech Stack:</h3>HTML | JavaScript | CSS
             </p>
 
@@ -158,7 +158,7 @@ const Work = () => {
               A collaborative project, built in 4 days by a team of 5
               developers.
             </h3>
-            <p>
+            <p className="techStack">
               <h3>Tech Stack:</h3>HTML | JavaScript | CSS
             </p>
 
@@ -169,7 +169,7 @@ const Work = () => {
                   className="logo-link2"
                 >
                   <TfiGithub />
-                  <p>Github</p>
+                  <p className="logo">Github</p>
                 </a>
               </h1>
               <h1 className="logo-link">

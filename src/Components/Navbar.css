@@ -8,12 +8,26 @@
   height: 90px;
   z-index: 10;
 }
+.header a :hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.name:hover {
+  color: teal;
+}
 
 .header-bg {
   background-color: black;
   transition: 0.5s;
 }
-
+li:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 li a:hover {
   color: #01a479;
 }
