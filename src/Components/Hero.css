@@ -63,12 +63,15 @@
   margin: 1rem 0.2rem;
 }
 
-@media screen and(max-width:640px) {
+@media screen and (max-width: 640px) {
   .hero .content h1 {
     font-size: 3rem;
   }
 
   .hero .headLine p {
     font-size: 1.4rem;
+  }
+  .profile {
+    width: 50%;
   }
 }

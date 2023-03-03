@@ -1,0 +1,20 @@
+.stats2 {
+  width: 355px;
+}
+
+@media screen and (max-width: 1000px) {
+  .statsImg2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container img {
+    width: 50%;
+  }
+  .statsImg2 {
+    flex-direction: column;
+    align-items: center;
+  }
+}

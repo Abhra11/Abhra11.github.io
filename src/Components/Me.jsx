@@ -1,9 +1,9 @@
-import DownloadIcon from "@mui/icons-material/Download";
+// import DownloadIcon from "@mui/icons-material/Download";
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { ImDownload } from "react-icons/im";
-import Resume from "../assets/Abhra_Mondal_Resume.pdf";
-import Typical from "react-typical";
+import Resume from "../assets/fw19_0806-Abhra_Mondal_Resume.pdf";
+// import Typical from "react-typical";
 // import myImage from "../Resources/Images/profilePic.jpeg";
 // import backgroundImage from "../assets/bg.jpg";
 
@@ -63,7 +63,7 @@ const Me = () => {
                   }}
                 >
                   <ImDownload />
-                  Download
+                  Resume
                 </button>
               </h1>
             </a>

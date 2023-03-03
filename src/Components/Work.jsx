@@ -28,10 +28,10 @@ const Work = () => {
               week. Get exclusive offers like nowhere else.
             </p>
 
-            <h3>
+            {/* <h3>
               A collaborative project, built in 4 days by a team of 5
               developers.
-            </h3>
+            </h3> */}
             <p className="techStack">
               <h3>Tech Stack:</h3>RractJS | React-Redux | HTML | JavaScript
             </p>
@@ -70,9 +70,9 @@ const Work = () => {
               good customer service and vast amount of DESI products at your
               door.
             </p>
-            <h3>
+            {/* <h3>
               An individual project which is only created by me in 4 days.
-            </h3>
+            </h3> */}
             <p className="techStack">
               <h3>Tech Stack:</h3>RractJS | HTML | JavaScript
             </p>
@@ -111,10 +111,10 @@ const Work = () => {
               the style obsessed, shop designer styles from Prada, Gucci, Dior,
               Valentino up to 70% off.
             </p>
-            <h3>
+            {/* <h3>
               A collaborative project, built in 4 days by a team of 5
               developers.
-            </h3>
+            </h3> */}
             <p className="techStack">
               <h3>Tech Stack:</h3>HTML | JavaScript | CSS
             </p>
@@ -154,10 +154,10 @@ const Work = () => {
               Search & Apply for Latest Job Vacancies across Top Companies in
               India.
             </p>
-            <h3>
+            {/* <h3>
               A collaborative project, built in 4 days by a team of 5
               developers.
-            </h3>
+            </h3> */}
             <p className="techStack">
               <h3>Tech Stack:</h3>HTML | JavaScript | CSS
             </p>

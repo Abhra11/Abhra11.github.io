@@ -3,13 +3,14 @@ import styled from "styled-components";
 import GithubCalendar from "react-github-calendar";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./GitStats.css";
 const GitState = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   });
 
   return (
-    <MainContainer style={{ marginTop: "-20px" }} data-aos="zoom-in-down">
+    <div style={{ marginTop: "-20px" }} data-aos="zoom-in-down">
       <h1
         style={{
           color: "#098b55 ",
@@ -36,14 +37,14 @@ const GitState = () => {
           textAlign: "center",
         }}
       >
-        my Git_State
+        my Git_Stats
       </h1>
-      <Container>
+      <Container style={{ gap: "30px" }} className="container">
         <img
           src="https://github-readme-streak-stats.herokuapp.com?user=Abhra11"
           alt=""
         />
-        <div>
+        <div className="statsImg2" style={{ display: "flex", gap: "30px" }}>
           <img
             src="https://github-readme-stats.vercel.app/api?username=Abhra11"
             alt=""
@@ -52,10 +53,11 @@ const GitState = () => {
           <img
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhra11"
             alt=""
+            className="stats2"
           />
         </div>
       </Container>
-    </MainContainer>
+    </div>
   );
 };
 
@@ -72,10 +74,10 @@ const Container = styled.div`
   padding: 30px 0px 30px 0px;
 `;
 
-const MainContainer = styled.div`
-  @media (max-width: 50em) {
-    display: none;
-  }
-`;
+// const MainContainer = styled.div`
+//   @media (max-width: 50em) {
+//     width: "20%";
+//   }
+// `;
 
 export default GitState;
