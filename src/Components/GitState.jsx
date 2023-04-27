@@ -37,7 +37,7 @@ const GitState = () => {
           textAlign: "center",
         }}
       >
-        my Git_Stats
+        my Git_State
       </h1>
       <Container style={{ gap: "30px" }} className="container">
         <img
