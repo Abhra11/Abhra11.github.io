@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { ImDownload } from "react-icons/im";
-import Resume from "../assets/fw19_0806-Abhra_Mondal_Resume.pdf";
+import Resume from "../assets/Abhra_Mondal_resume.pdf";
 // import Typical from "react-typical";
 // import myImage from "../Resources/Images/profilePic.jpeg";
 // import backgroundImage from "../assets/bg.jpg";
